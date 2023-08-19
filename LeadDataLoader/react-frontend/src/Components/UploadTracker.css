@@ -1,0 +1,47 @@
+/* UploadTracker.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+    /* Adjust this value based on your sidebar width */
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.fetch-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fetch-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.upload-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+}

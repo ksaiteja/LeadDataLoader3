@@ -1,0 +1,75 @@
+/* UploadLeads.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}   
+
+.container {
+    margin-left: 220px;
+    /* Adjust this value based on your sidebar width */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.container2{
+    margin: 80px;
+}
+.container3 {
+    margin: 80px;
+}
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-label {
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+.lead-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lead-table th,
+.lead-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.lead-table th {
+    font-weight: bold;
+}
+
+.lead-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.lead-table tbody tr:hover {
+    background-color: #eaf0ff;
+}
