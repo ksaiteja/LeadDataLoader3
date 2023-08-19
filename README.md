@@ -13,4 +13,4 @@ db.users.insertOne({
    role: "admin"
 });
 ```
-
+6. login with the provided username and password at the frontend
