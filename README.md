@@ -9,7 +9,7 @@ How to run:
 ```
 db.users.insertOne({
    username: "exampleUser",
-   password: "exampleUassword", // Hashed password, not plain text
+   password: "exampleUassword", 
    role: "admin"
 });
 ```
