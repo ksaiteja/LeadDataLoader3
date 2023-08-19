@@ -6,11 +6,11 @@ How to run:
 3. run FSDApp.java file in backend to start spring-boot app, it will start on port no. 8081
 4. create a database named LeadDataLoader in mongoDB
 5. run the following in mongo shell
-'''
+```
 db.users.insertOne({
    username: "exampleUser",
    password: "exampleUassword", // Hashed password, not plain text
    role: "admin"
 });
-'''
+```
 
