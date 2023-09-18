@@ -7,8 +7,8 @@ How to run:
 4. create a database named LeadDataLoader in mongoDB
 5. run the following in mongo shell
 ```
-use LeadDataLoader;
-db.users.insertOne({
+use LeadDataLoader
+db.Users.insertOne({
    username: "exampleUser",
    password: "exampleUassword", 
    role: "admin"
